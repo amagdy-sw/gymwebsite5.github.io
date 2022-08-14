@@ -12,7 +12,8 @@
 
 <body data-bs-spy="scroll" data-bs-offset="10" data-bs-target="#navbar">
     <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+        <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
             aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -35,6 +36,7 @@
                     <a class="nav-link" href="#Contact">Contact</a>
                 </li>
             </ul>
+        </div>
         </div>
     </nav>
     <main role="main" class="mt-5">
@@ -251,12 +253,6 @@
         </div>
         <!-- Copyright -->
     </footer>
-    <script>
-        $('body').scrollspy({ target: '#navbar' })
-        $('.carousel').carousel({
-            interval: 2000
-        })
-    </script>
 </body>
 
 </html>
