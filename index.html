@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-offset="10" data-bs-target="#navbar">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Gym Brand</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#Home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Services">Interests</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Team">Trainers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main role="main" class="mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 pt-3">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/banner1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/banner2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="Home" class="col-md-12 pt-6">
+                    <div class="bg-light p-5 rounded-3">
+                        <h1 class="display-4">Get Started</h1>
+                        <div class="row">
+                            <div class="col-md-7">
+                                <img src="images/main.jpg" style="width: 100%;" alt="banner" />
+                            </div>
+                            <div class="col-md-5">
+                                <p class="lead">
+                                    <strong>Beginner full body workout routine: </strong>
+                                    <ul class="list-group">
+                                        <li class="list-group-item">
+                                            Day 1: Chest, Back, Shoulders, Legs, Biceps, Triceps
+                                        </li>
+                                        <li class="list-group-item">
+                                            Day 2: Legs, Triceps, Biceps, Chest, Back, Shoulder
+                                        </li>
+                                        <li class="list-group-item">
+                                            Day 3: Shoulders, Back, Chest, Legs, Triceps, Biceps
+                                        </li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <hr class="my-4">
+                        <p class="lead">
+                            <a class="btn btn-primary btn-lg" href="#About" role="button">Learn more</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="About" class="col-md-12 pt-6">
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="images/about-gym.jpg" class="card-img" alt="about gym">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h3 class="card-title">About</h5>
+                                    <h5>FITNESS AND HEALTH</h5>
+                                    <p class="card-text mb-auto">A Place for your Fitness Goal</p>
+                                    <br />
+                                    <h5>CLASSES</h5>
+                                    <p class="card-text mb-auto">
+                                        All your classes in a practical interactive table overview. You also get an integrated body mass index calculator.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="Services" class="col-md-12 pt-6">
+                    <p class="h2">Interests</p>
+                    <div class="card-group">
+                        <div class="card">
+                            <img class="card-img" src="images/exercises/crossfit.jpg" alt="crossfit">
+                            <div class="card-body">
+                                <h5 class="card-title">Crossfit</h5>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img" src="images/exercises/weightlifting.jpg" alt="weight lifting">
+                            <div class="card-body">
+                                <h5 class="card-title">Weight Lifting</h5>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img" src="images/exercises/outdoor.jpg" alt="outdoor">
+                            <div class="card-body">
+                                <h5 class="card-title">Outdoor</h5>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img" src="images/exercises/yoga.jpg" alt="yoga">
+                            <div class="card-body">
+                                <h5 class="card-title">Yoga</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="Team" class="col-md-12 pt-6">
+                    <p class="h2">Trainers</p>
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="images/trainers/JohnSmith.jpg" class="card-img-top" alt="John Smith">
+                            <div class="card-body">
+                                <h5 class="card-title">John Smith</h5>
+                                <p class="card-text">The Boss & Gym Trainer</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="images/trainers/JohnDoe.jpg" class="card-img-top" alt="John Doe">
+                            <div class="card-body">
+                                <h5 class="card-title">John Doe</h5>
+                                <p class="card-text">Gym Trainer</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="images/trainers/MarkAdams.jpg" class="card-img-top" alt="Mark Adams">
+                            <div class="card-body">
+                                <h5 class="card-title">Mark Adams</h5>
+                                <p class="card-text">Gym Trainer</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="images/trainers/PeterMartin.jpg" class="card-img-top" alt="Peter Martin">
+                            <div class="card-body">
+                                <h5 class="card-title">Peter Martin</h5>
+                                <p class="card-text">Gym Trainer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="Contact" class="col-md-12 pt-6">
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="images/contact.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Contact</h5>
+                                    <p class="card-text">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">HEAD OFFICE</li>
+                                        <li class="list-group-item">ADDRESS</li>
+                                        <li class="list-group-item">PHONE</li>
+                                        <li class="list-group-item">EMAIL</li>
+                                    </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <hr />
+    <!-- FOOTER -->
+    <footer class="container-fluid bg-dark text-light pt-6">
+        <div class="row">
+            <div class="col-md-4">
+                <h5 class="font-weight-bold text-uppercase">Gym Brand</h5>
+                <p>
+                    About The Gym
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h5 class="font-weight-bold text-uppercase">Privacy & Terms</h5>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#Services">Interests</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms</a>
+                    </li>
+                    <li>
+                        <a href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5 class="font-weight-bold text-uppercase">Navigation</h5>
+                <p><a href="#">Back to top</a></p>
+            </div>
+        </div>
+        <hr class="my-4"/>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="#"> Gym Website</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <script>
+        $('body').scrollspy({ target: '#navbar' })
+        $('.carousel').carousel({
+            interval: 2000
+        })
+    </script>
+</body>
+
+</html>

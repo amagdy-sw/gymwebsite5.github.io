@@ -1,0 +1,21 @@
+body {
+    position: relative;
+}
+
+.pt-6{
+    padding-top: 6rem;
+}
+
+.jumbotron{
+    margin-bottom: 0;
+}
+
+footer{
+    padding-bottom: 4rem;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}
